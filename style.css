@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    font-family: consolas, monospace;
+    font-size: 16px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container
+{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card
+{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+.card img
+{
+    margin: 10% 5%;
+}
+
+
+.card h2
+{
+    font-size: 34px;
+    margin: 10% 5%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+.card article
+{
+    margin: 10% 5%;
+    color: #ffffff;
+}
+
+
+.card .btnLearn_more
+{
+    height: 50px;
+    width: 40%;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin: 10% 5%;
+    
+}
+
+
+.card.first
+{
+    background-color: #ffbb00;
+    border-radius: 10px 0 0 10px;
+}
+.card.first .btnLearn_more
+{
+    color: #ffbb00;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.card.second
+{
+    background-color: #2484d3;
+    border-radius: 0;
+}
+
+
+.card.second .btnLearn_more
+{
+    color: #2484d3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.card.third
+{
+    background-color: #095296;
+    border-radius:  0 10px 10px 0;
+}
+
+
+.card.third .btnLearn_more
+{
+    color: #095296;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
